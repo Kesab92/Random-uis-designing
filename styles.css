@@ -36,7 +36,7 @@ main {
   border-color: #ab0613;
 }
 .two > img {
-  height: 130px;
+  height: 100px;
 }
 .two > a {
   background-color: #ab0613;
@@ -46,7 +46,7 @@ main {
 .wrapper_two {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr;
+  grid-template-rows: 300px;
   gap: 10px;
   margin-top: 10px;
 }
