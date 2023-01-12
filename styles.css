@@ -27,7 +27,7 @@ main {
   border-color: #ab0613;
 }
 .one > img {
-  height: 200px;
+  max-width: 100%;
 }
 .two {
   display: flex;
@@ -37,7 +37,7 @@ main {
   background-color: #f6f6f6;
 }
 .two > img {
-  height: 100px;
+  max-width: 100%;
 }
 .two > a {
   background-color: #ab0613;
@@ -59,7 +59,7 @@ main {
   background-color: #f6f6f6;
 }
 .three > img {
-  height: 100px;
+  max-width: 100%;
 }
 .four {
   display: flex;
@@ -69,7 +69,7 @@ main {
   background-color: #f6f6f6;
 }
 .four > img {
-  height: 100px;
+  max-width: 100%;
 }
 .five {
   display: flex;
