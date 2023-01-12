@@ -16,23 +16,87 @@ main {
 .wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  gap: 5px;
 }
 .one {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  background-color: #f6f6f6;
+  border-top: 1px solid;
+  border-color: #ab0613;
 }
 .one > img {
   height: 200px;
 }
 .two {
-  display: grid;
-  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid;
+  border-color: #ab0613;
 }
 .two > img {
-  height: 100px;
+  height: 130px;
   width: 200px;
+}
+.two > a {
+  background-color: #ab0613;
+  color: white;
+  padding: 10px;
+}
+.wrapper_two {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+.three {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid;
+  border-color: #ab0613;
+  background-color: #f6f6f6;
+}
+.three > img {
+  height: 100px;
+}
+.four {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid;
+  border-color: #ab0613;
+  background-color: #f6f6f6;
+}
+.four > img {
+  height: 100px;
+}
+.five {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f6f6f6;
+}
+.five > a {
+  border-top: 1px solid;
+  border-color: #ab0613;
+  background-color: #f6f6f6;
+}
+.six {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f6f6f6;
+}
+.six > a {
+  border-top: 1px solid;
+  border-color: #ab0613;
+  background-color: #f6f6f6;
 }
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+p {
+  font-size: 0.8rem;
+}
+a {
 }
