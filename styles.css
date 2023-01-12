@@ -34,6 +34,7 @@ main {
   flex-direction: column;
   border-top: 1px solid;
   border-color: #ab0613;
+  background-color: #f6f6f6;
 }
 .two > img {
   height: 100px;
