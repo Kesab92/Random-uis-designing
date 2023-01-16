@@ -15,21 +15,23 @@ main {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr;
   gap: 10px;
 }
 .one {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  grid-column: 1 / span 3;
   background-color: #f6f6f6;
   border-top: 1px solid;
   border-color: #ab0613;
 }
 .one > img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
 }
 .two {
+  grid-column: 4;
   display: flex;
   flex-direction: column;
   border-top: 1px solid;
@@ -44,13 +46,6 @@ main {
   color: white;
   padding: 10px;
 }
-.wrapper_two {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 10px;
-  margin-top: 10px;
-}
 .three {
   display: flex;
   flex-direction: column;
@@ -62,6 +57,7 @@ main {
   max-width: 100%;
 }
 .four {
+  grid-column: 2/3;
   display: flex;
   flex-direction: column;
   border-top: 1px solid;
@@ -72,10 +68,14 @@ main {
   max-width: 100%;
 }
 .five {
+  grid-column: 3/4;
   display: flex;
   flex-direction: column;
   gap: 10px;
   background-color: #f6f6f6;
+  border-top-width: 1px;
+  border-right: solid;
+  border-right-color: rgb(220, 220, 220);
 }
 .five > a {
   border-top: 1px solid;
@@ -83,6 +83,7 @@ main {
   background-color: #f6f6f6;
 }
 .six {
+  grid-column: 4/5;
   display: flex;
   flex-direction: column;
   gap: 10px;
